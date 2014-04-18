@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About
+title: Gilles Debunne
 ---
 
-# Gilles Debunne
-
-Freelance developer
+#Freelance developer
 
 ## Projects
 
