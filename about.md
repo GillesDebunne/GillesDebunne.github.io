@@ -4,6 +4,7 @@ title: Gilles Debunne
 ---
 
 #Freelance developer
+Based in Toulouse
 
 ## Projects
 
@@ -12,7 +13,3 @@ title: Gilles Debunne
 ## Skills
 
 ...
-
-<p class="message">
-  This web site is at a very early stage
-</p>
