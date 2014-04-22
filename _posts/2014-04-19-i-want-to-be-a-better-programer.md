@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I wanna be a better programer
+title: I want to be a better programer
 ---
 
 We're Saturday morning, 8:43AM, and I'm typing this after yet an other (too) delicious breakfast at my airbnb place.
