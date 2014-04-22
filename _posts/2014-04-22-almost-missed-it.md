@@ -7,7 +7,9 @@ My deadline.
 
 Monday was a holiday, but today was supposed to be my first post.
 
-Here we go: the idea is to use this blog to push me to discover and then write about things I've learned and experienced.
+Indeed, the idea is to use this blog to push me to discover and then write about things I've learned and experienced.
+
+Procrastination was doing a good job, it is now 10PM. But it worked: the totally virtual peer pressure pushed me to write these lines.
 
 Being overly optimistic, I'll try to post every week day. We'll see how it goes. That's about 200 posts in a year. If I learn half as many tricks, I'll be a [better programmer]({% post_url 2014-04-19-i-want-to-be-a-better-programer %}).
 
