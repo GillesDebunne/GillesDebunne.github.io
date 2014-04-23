@@ -17,6 +17,6 @@ Being overly optimistic, I'll try to post every week day. We'll see how it goes.
 
 Since I started this blog, I've been playing with [Jekyll](http://jekyllrb.com/), the [Markdown syntax](https://daringfireball.net/projects/markdown/) and [GitHub user pages](https://help.github.com/articles/user-organization-and-project-pages), among other things (such as forcing myself to write in English).
 
-These are fantastic tools, and I'm glad I have added these to my toolbelt.
+These are fantastic tools, and I'm glad I have added these to my tool belt.
 
 Let's see what we'll talk about tomorrow.
