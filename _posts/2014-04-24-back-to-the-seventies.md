@@ -6,7 +6,7 @@ title: Back to the seventies
 Yesterday I decided I [needed test]({% post_url 2014-04-23-you-shall-test %}). Overnight, simple curl in a bash script seemed ok to test a REST API.
 
 I created a new `test` configuration in grunt-preprocess. It generates some duplicated code, that I could not remove.
-I added [grunt shell]({%https://www.npmjs.org/package/grunt-shell%}) to my project to be able to launch scripts from grunt.
+I added [grunt shell]({% https://www.npmjs.org/package/grunt-shell %}) to my project to be able to launch scripts from grunt.
 
 I had it all working in half an hour. Grunt is ok, the ecosystem is a bit young with a lot of extensions providing the same service (grunt-exec, grunt-shell, grunt-run...), some no longer maintained.
 
