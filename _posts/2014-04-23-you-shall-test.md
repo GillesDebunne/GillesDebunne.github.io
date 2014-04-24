@@ -21,7 +21,7 @@ And sometimes, your system explodes, as is the case now with my angularJS side p
 
 It's a single PHP page, using the [Slim framework](http://www.slimframework.com/) and accessing a mySql database. Around 10 different actions, with various error return codes.
 
-phpUnit, DbUnit, sure, but I don't care about the PHP side, only about the REST API.
+phpUnit, DbUnit, sure, but PHP should stay an implementation detail.
 
 Frustrated after these long minutes looking for tools, I decided to do it by hand: Create a test grunt configuration, binding to a test database, maybe using SqlLite, and then I'll do simple curl requests and check the results. And yes, some requests will have side effects and their order will matter.
 
