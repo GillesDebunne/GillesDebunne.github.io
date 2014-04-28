@@ -7,7 +7,7 @@ title: Don't give up
 > you know it's never been easy
 > -- <cite>Peter Gabriel</cite>
 
-`Bash` brings you back to [the seventies]({% 2014-04-24-back-to-the-seventies %}). I've fought a couple more hours to get `curl` working, changing the different types of quotes I use, with no real success.
+`Bash` brings you back to [the seventies]({% post_url 2014-04-24-back-to-the-seventies %}). I've fought a couple more hours to get `curl` working, changing the different types of quotes I use, with no real success.
 
 I've started wrting a python meta-script, that would generate the bash script (pure curl calls, no functions, to mitigate quote problems). Then I looked at [restAssured](https://code.google.com/p/rest-assured/) in Java, but the syntax is not as fluent as they claim.
 
