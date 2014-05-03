@@ -8,14 +8,14 @@ permalink:        pretty
 # Setup
 title:            'Fast & Curious'
 tagline:          'Gilles Debunne'
-description:      'Blabla à écrire... <a href="https://twitter.com/gdebunne" target="_blank">@gdebunne</a>.'
+description:      'Blah blah... <a href="https://twitter.com/gdebunne" target="_blank">@gdebunne</a>.'
 url:              http://gillesdebunne.github.io/
 
 author:
   name:           'Gilles Debunne'
   url:            https://twitter.com/gdebunne
 
-paginate:         1
+paginate:         3
 
 # Custom vars
 version:          0.4.2
