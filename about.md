@@ -4,7 +4,7 @@ title: Gilles Debunne
 ---
 
 #Freelance developer
-Based in Toulouse
+Located in Toulouse
 
 ## Projects
 
