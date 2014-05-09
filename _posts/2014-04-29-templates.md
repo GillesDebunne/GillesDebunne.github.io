@@ -11,7 +11,7 @@ Glad I'm not coding in C++.
 
 Oops, actually I am, and have been for the last 6 months.
 
-# Then what?
+## Then what?
 
 There is unfortunately no perfect language out there. All we can hope is that the new ones learn from the mistakes of the old ones. Like Java avoided most of the object oriented mistakes of C++, which had the C compatibility burden.
 

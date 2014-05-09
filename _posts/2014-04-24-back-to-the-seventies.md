@@ -12,7 +12,7 @@ I had it all working in half an hour. Grunt is ok, but the ecosystem looks a bit
 
 Anyway, now on to my script.
 
-# Bash bashing
+## Bash bashing
 
 The shell script first calls `mysql` to create and populate a test database.
 I used `mysql_config_editor` to persist a MySql login configuration and avoid the "Using a password on the command line interface can be insecure" warnings when setting the password from the command line.
@@ -34,7 +34,7 @@ where you learn that `[` is not just a funny parenthesis, but an alias to the `t
 
 Bash is a dinosaur, coming from the seventies, when you were so proud you could format your 720k floppy using the command line. I knew it, but my script was short, and all I needed was to get these two `assert` methods running.
 
-# And then a test fails
+## And then a test fails
 
 In this test, I give a new type of header parameter to curl, but it manages to mess with the parameters and their quotes. When I `echo` the command and then run it in a shell, I get the correct result. But when bash runs it, I can see on the server log that the header parameters are wrong, maybe because it added some quotes this time.
 

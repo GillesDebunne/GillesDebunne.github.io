@@ -7,13 +7,13 @@ Today, I tried to switch to [less](http://lesscss.org/) instead of plain old `cs
 
 Using `sass` or `less` is now an obvious choice to overcome `css`' limitations. Sass is supposedly a bit more powerful, but I'm planning to tweak a bootstrap theme, and its native language is less. And using any of these is still way better than css.
 
-# Grunt process
+## Grunt process
 
 I installed `grunt-recess` which *seemed* the right plugin for less processing.
 
 Tweaking from readings here and there, it took me two hours to get grunt to compile the less files and live reload my site on change. Turns out it was probably correctly configured from the beginning, except for a typo in a path name (I would have *sooo* loved at least a little warning).
 
-# Less version
+## Less version
 
 But then, I got an error when building the vanilla bootstrap. Turns out `grunt-recess` is using less v1.3, while bootstrap uses the v1.4 `extend` feature, and less' latest version is v1.7.
 
@@ -51,7 +51,7 @@ less: {
 },
 ```
 
-# Bootswatch customisation
+## Bootswatch customisation
 
 Once bootstrap was successfully compiled from less to css, with live reload I could finally start customising.
 I started from a [bootswatch](http://bootswatch.com/) theme. I was worried I would have to modify files directly: I do not want to touch the original bootstrap files, which will evolve and are version controlled using `bower`.

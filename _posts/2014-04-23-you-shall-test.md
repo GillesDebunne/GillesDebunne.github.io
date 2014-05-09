@@ -17,7 +17,7 @@ More testing is definitively something I want to try in this post series. Maybe 
 
 And sometimes, your system explodes, as is the case now with my angularJS side project. Each defect leads to a new one. My architecture is probably really bad, since this is my first project using this technological stack. The first isolated part I'll try to test is the REST API.
 
-# Testing a REST API
+## Testing a REST API
 
 It's a single PHP page, using the [Slim framework](http://www.slimframework.com/) and accessing a mySql database. Around 10 different actions, with various error return codes.
 
