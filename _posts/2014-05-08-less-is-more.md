@@ -57,8 +57,8 @@ Once bootstrap was successfully compiled from less to css, with live reload I co
 I started from a [bootswatch](http://bootswatch.com/) theme. I was worried I would have to modify files directly: I do not want to touch the original bootstrap files, which will evolve and are version controlled using `bower`.
 
 Turns out to be easy, 
-- just copy `bootstrap.less` and edit it to `import` the original bootstrap files, located in `bower_components/bootstrap/less`.
-- use a local and customised `variables.less` file instead of the original one to define the main variables.
-- finally import `bootswatch.less` and `myCustomStyle.less` before `utilities.less` to add custom style.
+-  just copy `bootstrap.less` and edit it to `import` the original bootstrap files, located in `bower_components/bootstrap/less`.
+-  use a local and customised `variables.less` file instead of the original one to define the main variables.
+-  finally import `bootswatch.less` and `myCustomStyle.less` before `utilities.less` to add custom style.
 
 Now converting my css tweaks into less, the web page structure appears in the less file, which is cleaner and simpler.
