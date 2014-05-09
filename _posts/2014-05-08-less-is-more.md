@@ -17,7 +17,7 @@ Tweaking from readings here and there, it took me two hours to get grunt to comp
 
 But then, I got an error when building the vanilla bootstrap. Turns out `grunt-recess` is using less v1.3, while bootstrap uses the v1.4 `extend` feature, and less' latest version is v1.7.
 
-Switching to [`grunt-contrib-less`](https://github.com/gruntjs/grunt-contrib-less) instead, which seems more official and actually runs less v1.7. I guess I'll look more closely at gruntjs web site first next time I need a new grunt plugin. It's a bit the jungle out there (why not try [assemble-less](https://github.com/assemble/assemble-less)?). A new build system, [gulp](http://gulpjs.com/) is emerging and may replace `grunt`, but we'll see this later.
+Switching to [`grunt-contrib-less`](https://github.com/gruntjs/grunt-contrib-less) instead, which seems more official and actually runs less v1.7. I guess I'll first look at the [gruntjs](http://gruntjs.com/) web site next time I need a new grunt plugin. It's a bit the jungle out there (why not try [assemble-less](https://github.com/assemble/assemble-less) whie at it?). A new build system, [gulp](http://gulpjs.com/) is emerging and may replace `grunt`, but we'll see this later.
 
 Here is the final `Gruntfile` configuration:
 
@@ -40,7 +40,7 @@ less: {
 },
 ```
 
-Again, not so happy about this `files` duplication for the `dev` and `prod` environments. `recess` also allowed for 
+Again, not so happy about this `files` duplication for the `dev` and `prod` environments.
 
 Also added this in the `watch` section for live reload:
 
