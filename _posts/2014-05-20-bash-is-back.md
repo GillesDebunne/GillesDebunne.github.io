@@ -7,10 +7,9 @@ I had an [other]({% post_url 2014-04-24-back-to-the-seventies %}) painful experi
 
 All I wanted to do was to create a cron task that updates some files in a folder, compresses and uploads these files on a web site using `ftp`.
 
-As before, the `curl` part was problematic, when used with in conjunction with variables.
+As before, the `curl` part was problematic, when used in conjunction with variables.
 
 But this time, I've found [this answer](http://thread.gmane.org/gmane.comp.web.curl.general/8716/focus=8723) in a thread.
-
 Turns out that when you declare:
 
 ```
@@ -28,7 +27,7 @@ Parameter  3: "c
 Parameter  4: d"
 ```
 
-4 parameters instead of the expected 3, double quotes loosing their meaning, totally unpredictable.
+4 parameters instead of the expected 3, double quotes loosing their meaning and a text split by spaces.
 
 ## showargs
 
